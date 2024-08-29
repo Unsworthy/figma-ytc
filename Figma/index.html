@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <a href="#" class="active"><i class="fas fa-home"></i> Home</a>
+      <a href="#"><i class="fas fa-video"></i> Shorts</a>
+      <a href="#"><i class="fas fa-tv"></i> Subscriptions</a>
+      <hr />
+      <a href="#"><i class="fas fa-photo-video"></i> Library</a>
+      <a href="#"><i class="fas fa-history"></i> History</a>
+      <a href="#"><i class="fas fa-upload"></i> Your videos</a>
+      <a href="#"><i class="fas fa-clock"></i> Watch later</a>
+      <a href="#"><i class="fas fa-thumbs-up"></i> Liked videos</a>
+      <hr />
+      <h6 style="color: #909090; margin-left: 20px">Subscriptions</h6>
+      <a href="#"><i class="fas fa-circle"></i> MPL Indonesia</a>
+      <a href="#"><i class="fas fa-circle"></i> Jonathan Liandi</a>
+      <a href="#"><i class="fas fa-circle"></i> The Jooomers</a>
+      <a href="#"><i class="fas fa-circle"></i> Oura</a>
+      <a href="#"><i class="fas fa-circle"></i> Nastasia Adeline</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Header -->
+      <div class="header">
+        <input type="text" placeholder="Search" />
+        <div>
+          <button>🔍</button>
+          <button class="icon-button">
+            <i class="fas fa-user-circle"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <button class="active">All</button>
+        <button>Game</button>
+        <button>Live</button>
+        <button>Music</button>
+        <button>Recently Uploaded</button>
+        <button>Watched</button>
+        <button>New to You</button>
+      </div>
+
+      <!-- Video Grid -->
+      <div class="container video-grid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card video-card">
+              <img src="mpl.jpg" alt="" />
+              <div class="card-body">
+                <div class="video-title">Grand Final MPL ID | RRQ VS ONIC</div>
+                <div class="video-info">
+                  MPL Indonesia • 689K views • 12 minutes ago
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <a
+              href="https://youtu.be/CP5LqbZWQIE?si=iReddJFjy9ol4Sgm"
+              target="_blank"
+              class="card-link"
+            >
+              <div class="card video-card">
+                <img src="joo.jpg" alt="Video Thumbnail" />
+                <div class="card-body">
+                  <div class="video-title">
+                    Ketika Si Kuda Disekolahin Sang Raja!! - EMPACTION #178
+                  </div>
+                  <div class="video-info">
+                    Jonathan Liandi • 729K views • 2 days ago
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a
+              href="https://youtu.be/NeFCMFXkbv0?si=uZBMkHeQssmsRp5X"
+              target="_blank"
+              class="card-link"
+            >
+              <div class="card video-card">
+                <img src="upi.jpg" alt="Video Thumbnail" />
+                <div class="card-body">
+                  <div class="video-title">
+                    COMEBACK RENTAL PS BARENG IPUN - TEKKEN 8
+                  </div>
+                  <div class="video-info">
+                    Luthfi Halimawan • 144K views • 6 months ago
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a
+              href="https://youtu.be/xAKkcRCyC-A?si=XFb0gAfGUqtliooV"
+              target="_blank"
+              class="card-link"
+            >
+              <div class="card video-card">
+                <img src="dean.jpg" alt="Video Thumbnail" />
+                <div class="card-body">
+                  <div class="video-title">
+                    VLOG DEANKT DAN B2E DI SURABAYA !! LAWAN CI SHANI DAN MAKAN
+                    KEPITING ABIS 9 JUTA !!
+                  </div>
+                  <div class="video-info">
+                    DEANKT • 184K views • 1 months ago
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- untuk menambahkan video baru -->
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
